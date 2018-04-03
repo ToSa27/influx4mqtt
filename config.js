@@ -1,5 +1,6 @@
 const os = require('os');
 module.exports = require('yargs')
+    .env('INFLUX4MQTT')
     .usage('Usage: $0 [options]')
     .describe('subscribe', 'topics to subscribe to (may be repeated)')
     .describe('n', 'instance name. used as prefix for connection-state topic')
