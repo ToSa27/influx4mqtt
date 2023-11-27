@@ -9,7 +9,7 @@
   "author": "Sebastian 'hobbyquaker' Raff <hobbyquaker@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "mqtt": "^2.15.1",
+    "mqtt": "^4.2.7",
     "request": "^2.83.0",
     "yalm": "^4.1.0",
     "yargs": "^11.0.0"
